@@ -10,27 +10,7 @@ from data import Dataset3D
 from torch.utils.data import DataLoader
 import calculator
 
-"""
-# -----------------------------------
-#            PARAMETERS
-# -----------------------------------
 
-# Print config parameters
-print('TRANSFORMER PARAMETERS')
-for x in cfg.model_params:
-    print(x, ':', cfg.model_params[x])
-print('\nTRAINING PARAMETERS')
-for x in cfg.train_params:
-    print(x, ':', cfg.train_params[x])
-print('\nDATA INFORMATION')
-for x in cfg.params:
-    print(x, ':', cfg.params[x])
-
-# -----------------------------------
-#            IMPORT DATA
-# -----------------------------------
-
-"""
 
 def parse_args():
     parser = argparse.ArgumentParser()
